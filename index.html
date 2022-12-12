@@ -19,7 +19,13 @@
             <hr>
 
             <script>
-                var numeroPensado = Math.round(Math.random()*10);
+                function random() {
+                    var numero = Math.round(Math.random()*10);
+
+                    return numero;
+                }
+
+                var numeroPensado = random();
                 var palpite = parseInt(prompt("digite seu chute!"));
 
 
