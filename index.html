@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Anek+Telugu:wght@300;400;500;600&family=EB+Garamond:ital,wght@1,500&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <title>Jogo advinhação</title>
+</head>
+<body>
+    <section>
+        <div class="box">
+
+            <h1>Jogo da advinhação</h1>
+
+            <hr>
+
+            <script>
+                var numeroPensado = Math.round(Math.random()*10);
+                var palpite = parseInt(prompt("digite seu chute!"));
+
+
+                if(palpite == numeroPensado) {
+                    document.write(" <p> Você acertou!!! O número pensado foi " + numeroPensado + ". <\p>");
+                } else {
+                    document.write(" <p> Você errou!!! O número pensado foi "+ numeroPensado +". <\p>");
+                }
+            </script>
+
+            <button onclick="window.location.reload()"><img src="/jogo_advinhacao/icons/icons8-compromisso-recorrente-48.png" alt=""></button>
+        </div>
+    </section>
+</body>
+</html>
