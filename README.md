@@ -1,7 +1,7 @@
 
 # Jogo de adivinhação 
 
-
+Crie esse jogo de adivinhação para treinar minha lógica de programação, uso de condicionais e centralização de uma div utilizando flexbox.
 
 
 ## Stack utilizada
@@ -18,7 +18,3 @@
 
 
 
-
-## Aprendizados
-
-Treinei a minha lógica de programação, uso de condicionais e centralização de uma div utilizando flexbox.
