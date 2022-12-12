@@ -13,7 +13,7 @@ Crie esse jogo de adivinhação para treinar minha lógica de programação, uso
 
 ## Screenshots
 
-![home portfolio](https://github.com/MoisesssDev/algoritmo_adivinhacao/blob/main/screenshot/jogo_advinhacao.png?raw=true)
+![home portfolio](https://github.com/MoisesssDev/algoritmo_adivinhacao/blob/main/screenshot/jogo-advinhacao.png?raw=true)
 
 
 
