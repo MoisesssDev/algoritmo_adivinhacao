@@ -1,7 +1,7 @@
 
 # Jogo de adivinhação 
 
-Crie esse jogo de adivinhação para treinar minha lógica de programação, uso de condicionais e centralização de uma div utilizando flexbox.
+Crie esse jogo de adivinhação para treinar minha lógica de programação, uso de condicionais e centralização de uma div utilizando flexbox. (O algoritmo Javascript está inserido no arquivo index.html dentro da tag <script></script>.)
 
 
 ## Stack utilizada
