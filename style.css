@@ -16,8 +16,8 @@ section {
 }
 
 .box {
-    width: 350px;
-    height: 350px;
+    width: 370px;
+    height: 500px;
     background: #1C1C1C;
     border-top: solid 10px #FFB6C1;
     }
@@ -29,24 +29,63 @@ section {
     font-family: 'Rubik Vinyl', cursive;
 }
 
+.logo {
+    margin-left: 9em;
+}
+
+.box .logo img {
+    width: 5em;
+}
+
 .box p {
-    margin-top: 3em;
+    margin-top: 2em;
     text-align: center;
     /* padding: 0.4em; */
     font-size: 1.3em;
 }
 
-hr {
-    color: black;
-}
+
 
 button {
+    border: none;
+    background-color: transparent;
     width: 3em;
-    height: 2.5em;
-    margin-bottom: 4em;
+    height: 3.5em;
+    margin-left: 45%;
+    margin-top: 3em;
     
 }
 
 button img {
-    width: 2em;
+    width: 4em;
 }
+
+
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 6em;
+    margin-bottom: 1em;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  
+}
+
+
+
+
+

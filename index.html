@@ -14,30 +14,25 @@
     <section>
         <div class="box">
 
-            <h1>Jogo de advinhação</h1>
+            <h1>Jogo de advinhação </h1>
+            <img class="logo" src="./icons/logo.png" alt="">
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Digite um número" name="name" id='name' required />
+        
+            </div>
 
             <hr>
 
-            <script>
-                function random() {
-                    var numero = Math.round(Math.random()*10);
+            <p>
+                Tente advinhar o número!!!
+            </p>
 
-                    return numero;
-                }
-
-                var numeroPensado = random();
-                var palpite = parseInt(prompt("digite seu chute!"));
-
-
-                if(palpite == numeroPensado) {
-                    document.write(" <p> Você acertou!!! O número pensado foi " + numeroPensado + ". <\p>");
-                } else {
-                    document.write(" <p> Você errou!!! O número pensado foi "+ numeroPensado +". <\p>");
-                }
-            </script>
-
-            <button onclick="window.location.reload()"><img src="/jogo_advinhacao/icons/icons8-compromisso-recorrente-48.png" alt=""></button>
+            <button onclick="verifica()" ><img src="./icons/play.png" alt=""></button>
         </div>
     </section>
+
+
+    <script src="./main.js"></script>
+    
 </body>
 </html>
