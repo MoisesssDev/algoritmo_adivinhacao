@@ -6,6 +6,7 @@ function random() {
     return numero;
 }
 var numeroPensado = random();
+// console.log(numeroPensado);
 
 // Verifica se o número escolhido é igual ao número que o usuario escolheu
 function verifica () {
